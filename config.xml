@@ -33,4 +33,5 @@
     https://build.phonegap.com/current-support
   -->
   <preference name="phonegap-version" value="cli-8.0.0" />
+  <preference name="android-minSdkVersion" value="19" />
 </widget>
