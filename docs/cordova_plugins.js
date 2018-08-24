@@ -307,12 +307,19 @@ module.exports = [
         "id": "cordova-plugin-googlemaps.PluginEnvironment",
         "pluginId": "cordova-plugin-googlemaps",
         "runs": true
+    },
+    {
+        "file": "plugins/cordova-plugin-promise/libs/bluebird-3.5.0.min.js",
+        "id": "cordova-plugin-promise.PromisePlugin",
+        "pluginId": "cordova-plugin-promise",
+        "runs": true
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "cordova-plugin-googlemaps": "2.4.0-beta-20180823-1728"
+    "cordova-plugin-googlemaps": "2.4.0-beta-20180823-1728",
+    "cordova-plugin-promise": "1.0.0"
 }
 // BOTTOM OF METADATA
 });
