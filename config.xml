@@ -25,11 +25,10 @@
     </platform>
     <preference name="phonegap-version" value="cli-8.0.0" />
     <preference name="android-minSdkVersion" value="19" />
-    <plugin name="cordova-plugin-googlemaps" spec="/Users/masashi/Documents/workspace2/cordova-plugin-googlemaps">
-        <variable name="API_KEY_FOR_ANDROID" value="AIzaSyBzTWTKaMEeABaeBSa3_E6ZMxseK4xXl4k" />
-        <variable name="API_KEY_FOR_IOS" value="AIzaSyBzTWTKaMEeABaeBSa3_E6ZMxseK4xXl4k" />
-        <variable name="API_KEY_FOR_BROWSER" value="AIzaSyBzTWTKaMEeABaeBSa3_E6ZMxseK4xXl4k" />
+    <plugin name="cordova-plugin-googlemaps">
+        <variable name="API_KEY_FOR_ANDROID" value="(API_KEY_FOR_ANDROID)" />
+        <variable name="API_KEY_FOR_IOS" value="(API_KEY_FOR_IOS)" />
     </plugin>
-    <plugin name="cordova-plugin-promise" spec="^1.0.0" />
     <engine name="ios" spec="^4.5.5" />
+    <engine name="browser" spec="~5.0.4" />
 </widget>

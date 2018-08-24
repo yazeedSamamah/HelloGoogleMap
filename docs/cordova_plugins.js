@@ -1,6 +1,12 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
+        "file": "plugins/cordova-plugin-googlemaps/www/Promise.js",
+        "id": "cordova-plugin-googlemaps.Promise",
+        "pluginId": "cordova-plugin-googlemaps",
+        "runs": true
+    },
+    {
         "file": "plugins/cordova-plugin-googlemaps/www/BaseClass.js",
         "id": "cordova-plugin-googlemaps.BaseClass",
         "pluginId": "cordova-plugin-googlemaps",
@@ -307,19 +313,13 @@ module.exports = [
         "id": "cordova-plugin-googlemaps.PluginEnvironment",
         "pluginId": "cordova-plugin-googlemaps",
         "runs": true
-    },
-    {
-        "file": "plugins/cordova-plugin-promise/libs/bluebird-3.5.0.min.js",
-        "id": "cordova-plugin-promise.PromisePlugin",
-        "pluginId": "cordova-plugin-promise",
-        "runs": true
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "cordova-plugin-googlemaps": "2.4.0-beta-20180823-1728",
-    "cordova-plugin-promise": "1.0.0"
+    "cordova-plugin-googlemaps": "2.4.0-beta-20180823-1136",
+    "cordova-plugin-whitelist": "1.3.3"
 }
 // BOTTOM OF METADATA
 });
