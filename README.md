@@ -9,4 +9,4 @@
 
 ## Demo
   - [Browser version](https://mapsplugin.github.io/HelloGoogleMap/)
-  - [Android APK file](https://raw.githubusercontent.com/mapsplugin/HelloGoogleMap/master/sample/apk)
+  - [Android APK file](https://raw.githubusercontent.com/mapsplugin/HelloGoogleMap/master/sample.apk)
