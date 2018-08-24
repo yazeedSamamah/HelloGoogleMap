@@ -318,8 +318,7 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "cordova-plugin-googlemaps": "2.4.0-beta-20180823-1136",
-    "cordova-plugin-whitelist": "1.3.3"
+    "cordova-plugin-googlemaps": "2.4.0-beta-20180823-1136"
 }
 // BOTTOM OF METADATA
 });

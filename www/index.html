@@ -7,10 +7,22 @@
     document.addEventListener("deviceready", function() {
       var div = document.getElementById("map_canvas");
 
+      // If your app runs this program on browser,
+      // you need to set `API_KEY_FOR_BROWSER_RELEASE` and `API_KEY_FOR_BROWSER_DEBUG`
+      // before `plugin.google.maps.Map.getMap()`
+      //
+      //   API_KEY_FOR_BROWSER_RELEASE for `https:` protocol
+      //   API_KEY_FOR_BROWSER_DEBUG for `http:` protocol
+      //
+      // If your app does not use browser,
+      // you can comment out this code.
+      plugin.google.maps.environment.setEnv({
+        'API_KEY_FOR_BROWSER_RELEASE': '(YOUR API KEY)',
+        'API_KEY_FOR_BROWSER_DEBUG': ''
+      })
+
       // Create a Google Maps native view under the map_canvas div.
-      var map = plugin.google.maps.Map.getMap(div, {
-        'API_KEY_FOR_BROWSER': '(YOUR API KEY)' //only for browser platform
-      });
+      var map = plugin.google.maps.Map.getMap(div);
 
       // If you click the button, do something...
       var button = document.getElementById("button");
