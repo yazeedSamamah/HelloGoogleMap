@@ -23,13 +23,12 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <preference name="phonegap-version" value="cli-8.0.0" />
+    <preference name="phonegap-version" value="cli-8.1.0" />
     <preference name="android-minSdkVersion" value="19" />
-    <plugin name="cordova-plugin-googlemaps">
-        <variable name="API_KEY_FOR_ANDROID" value="(API_KEY_FOR_ANDROID)" />
-        <variable name="API_KEY_FOR_IOS" value="(API_KEY_FOR_IOS)" />
-    </plugin>
-    <engine name="ios" spec="^4.5.5" />
-    <engine name="android" spec="^7.0.0" />
+    <preference name="API_KEY_FOR_ANDROID" value="AIzaSyAQb8UXtwwrW-R3zzOWgEDqvMNuA6IVkxs" />
+    <preference name="API_KEY_FOR_IOS" value="AIzaSyAQb8UXtwwrW-R3zzOWgEDqvMNuA6IVkxs" />
+    <plugin name="cordova-plugin-googlemaps" spec="https://github.com/mapsplugin/cordova-plugin-googlemaps#property_test" />
+    <engine name="ios" spec="^5.0.0" />
+    <engine name="android" spec="^8.0.0" />
     <engine name="browser" spec="~5.0.4" />
 </widget>
